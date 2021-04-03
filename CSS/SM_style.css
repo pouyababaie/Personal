@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -20vh;
+  font-size: 1rem;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.container_nav {
+  width: 100%;
+  backdrop-filter: blur(0);
+}
+
+.nav-items {
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vh;
+}
+.nav-items li {
+  margin: 2vh 2vh;
+  float: right;
+  color: rgb(80, 80, 80);
+  font-weight: bolder;
+}
+.nav-items h1 {
+  float: left;
+  margin-top: 2vh;
+  margin-left: 2.5vh;
+  font-size: 3vh;
+  border-bottom: 1px solid rgb(80, 80, 80);
+  padding-bottom: 1vh;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  top: 15%;
+}
+.linkedin {
+  margin: 3rem;
+  padding: 5vh;
+  background-color: blue;
+}
+.instagram {
+  margin: 3rem;
+  padding: 5vh;
+  background-color: red;
+}
+
+.telegram {
+  margin: 3rem;
+  padding: 5vh;
+  background-color: green;
+}
