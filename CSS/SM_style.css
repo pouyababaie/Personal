@@ -5,11 +5,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -20vh;
+  background-position-y: -17vh;
   font-size: 1rem;
 }
 
@@ -43,25 +48,23 @@ li {
   border-bottom: 1px solid rgb(80, 80, 80);
   padding-bottom: 1vh;
 }
-.container {
+.container_profile {
   position: absolute;
-  width: 100%;
-  display: flex;
-  top: 15%;
+  top: 12%;
+  left: 15%;
+  justify-content: center;
+  box-shadow: 5vh;
+  border-radius: 50%;
+  border: 2px solid gray;
+  background-color: inherit;
+  height: 75vh;
+  width: 75vh;
 }
-.linkedin {
-  margin: 3rem;
-  padding: 5vh;
-  background-color: blue;
-}
-.instagram {
-  margin: 3rem;
-  padding: 5vh;
-  background-color: rgb(151, 122, 122);
-}
-
-.telegram {
-  margin: 3rem;
-  padding: 5vh;
-  background-color: green;
+.intxt {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: auto;
 }
