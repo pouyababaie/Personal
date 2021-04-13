@@ -76,8 +76,7 @@ li {
 }
 .icons i {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: column;
   margin-top: 3vh;
   margin-bottom: 2vh;
   font-size: 4vh;
@@ -85,7 +84,7 @@ li {
   pointer-events: painted;
 }
 
-#Profile_pic {
+.container_profile img {
   position: absolute;
   top: 15%;
   left: 20%;
